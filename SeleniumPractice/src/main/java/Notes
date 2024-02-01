@@ -1,0 +1,28 @@
+We can use Submit function, when the webelement is in the form tag then only its applicable otherwise its show javascript exception.
+Simple Alert only contains confirm option only like accept.
+Confirm alert contains both accept and dismiss options
+Prompt alert can be used to put some input to the alert
+If u want to know x,y coordinate of the page, we can use Point class after the webelement find, then only we can call the get X,get Y methods
+If u want to know height and width of the page use Rectangle class
+Also we can use Dimension class to know the both height and width at the same time also get x and y separately
+U want to find element into the frame, First u need to switch into frame by using SwitchTo function 
+In drag and drop we need to source and target element, then we use action class it only contains drag and drop function
+In dropdown option we should use Select class then only we can select anything, in select class there is lot of functions like, selectByValue,selectByVisibleText,selectByIndex also Deselect
+Gettext is used to print the visible text of the element
+GetAttribute is used to get the value/attribute of the element
+List is a interface
+In interface the function doesnt have body like, public void aadhar(); In interface all functions are public. We cant create object for interface. We can implement multiple interface
+JDK 1.8 its possible for create body for the function in the interface, like default,static access modifier use
+Boolean default value false
+Each and every class extends a object
+In inheritance multilevel is possible, but multiple is not possible
+In Abstract class we cant create object
+List allows duplicate and maintain the order of insertion and also case sensitive
+Set is also an interface. it cannot maintain order and it doesn't allow duplicate
+Tree set changed the order into alphabetic
+LinkedHashSet maintain the insertion order
+
+Some XPath for segrigation-  //*[contains(text(),'cricket') or contains(text(),'Cricket')]
+In Exception Handling Each try block must be followed by Either catch or finally block
+One try block followed by multiple catch block is possible
+Throw is used to pass the exception by ourself, but throws is declare the exception  and throws didnot handle the exception

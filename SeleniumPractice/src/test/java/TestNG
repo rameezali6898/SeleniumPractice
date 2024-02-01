@@ -1,0 +1,15 @@
+If u use maven project, we add dependencies. Dependency means library or jar file
+java project means, we add jar files.   
+Plugin means software or tool
+To download testNG dependency from maven repository
+To download testng plugin from help-->eclipse marketplace-->search testng and install it.
+TestNG mainly used for sequential and parallel execution purpose
+In testNG we cant use main method with static and string arr[]
+In testng all methods are run by ascii based
+If we used priority and dependson at the same time, testNG gives high priority to dependsOn.
+invocationCount is the term used to perform no of times the testcase run
+Incase run the medhod which its dependsOn method is fail means we can use "alwaysRun=true".
+if u skip any method, we can use "enabled=false"
+we use enable and alwaysrun in same method, the first priority is enable.
+if the method is wrong but u need to pass the test means u can use expectedExceptions={someexception u put} it will pass
+include and exclude both are used in a group means exclude is high priority
